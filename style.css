@@ -1,0 +1,183 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #d35d6e;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: " Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.mm {
+  width: 75%;
+  transform: rotate(2.5deg);
+  right: 15%;
+}
+
+/* navigation bar  */
+.navbar {
+  padding: 0 0 5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.nav-item {
+  padding: 0 14px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* booking button  */
+.booking-button {
+  margin: 15% 3% 5% 0;
+  padding-right: 20px;
+}
+
+/* features section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+}
+
+.icon {
+  color: #d35d6e;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.features-box {
+  text-align: center;
+  padding: 6%;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "Montserrat";
+  color: #8f8f8f;
+}
+
+/* testimonials section */
+#testimonials {
+  text-align: center;
+  background-color: #d35d6e;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.carousel-item {
+  padding: 3% 15%;
+}
+
+.testimonial-image {
+  width: 5%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #d35d6e;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.imim {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.col-pricing {
+  padding: 3% 2%;
+}
+
+.card-header {
+  background-color: #f7c144;
+}
+
+/* Footer section */
+#cta {
+  background-color: #d35d6e;
+  text-align: center;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+.hd {
+  font-weight: bold;
+  font-family: "Montserrat";
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.bf-b {
+  margin-top: 40px;
+  margin-right: 10px;
+}
+
+.cale {
+  margin-right: 20px;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.sosh {
+  margin: 20px 10px;
+}
+.socal {
+  color: #000;
+}
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+
+  .mm {
+    position: static;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .hd {
+    text-align: center;
+  }
+}
